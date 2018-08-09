@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChartsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGF-CY-NIy" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="8" y="128" width="359" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="K3p-98-2ii"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-NY-kEt">
+                                <rect key="frame" x="8" y="28" width="359" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4p-nU-UyW">
+                                        <rect key="frame" x="8" y="19.5" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvs-ck-s3j">
+                                        <rect key="frame" x="307" y="19.5" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="zvs-ck-s3j" firstAttribute="centerY" secondItem="LKe-NY-kEt" secondAttribute="centerY" id="3Ig-3F-2fr"/>
+                                    <constraint firstItem="f4p-nU-UyW" firstAttribute="leading" secondItem="LKe-NY-kEt" secondAttribute="leading" constant="8" id="LH7-Ie-EJO"/>
+                                    <constraint firstAttribute="trailing" secondItem="zvs-ck-s3j" secondAttribute="trailing" constant="10" id="U8b-Ht-eIm"/>
+                                    <constraint firstItem="zvs-ck-s3j" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="f4p-nU-UyW" secondAttribute="trailing" constant="8" id="gOY-OF-gux"/>
+                                    <constraint firstItem="f4p-nU-UyW" firstAttribute="centerY" secondItem="LKe-NY-kEt" secondAttribute="centerY" id="krY-hn-2jZ"/>
+                                    <constraint firstAttribute="height" constant="60" id="xzc-aW-VJm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LKe-NY-kEt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="4jF-r0-Lff"/>
+                            <constraint firstItem="xGF-CY-NIy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="614-SA-xgB"/>
+                            <constraint firstItem="xGF-CY-NIy" firstAttribute="top" secondItem="LKe-NY-kEt" secondAttribute="bottom" constant="40" id="Abj-LO-iI6"/>
+                            <constraint firstItem="LKe-NY-kEt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="N0z-oA-lnl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xGF-CY-NIy" secondAttribute="trailing" constant="8" id="cNq-PY-6jp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LKe-NY-kEt" secondAttribute="trailing" constant="8" id="tAi-lP-gFx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="graphOneLabel" destination="f4p-nU-UyW" id="2uG-pb-Zga"/>
+                        <outlet property="graphTwoLabel" destination="zvs-ck-s3j" id="EpI-Wh-CvU"/>
+                        <outlet property="lineChartView" destination="xGF-CY-NIy" id="3Ff-h7-lvn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+</document>

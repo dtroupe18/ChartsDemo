@@ -28,19 +28,11 @@ class ViewController: UIViewController {
     var lineChartDataSet = LineChartDataSet()
     var otherLineChartDataSet = LineChartDataSet()
     
-    var tapGesture = UITapGestureRecognizer()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         lineChartView.delegate = self
         styleChart()
         setupChart()
-       //  setupGesture()
-    }
-
-    private func setupGesture() {
-        tapGesture.addTarget(self, action: #selector(self.handleTap(recognizer:)))
-        lineChartView.addGestureRecognizer(tapGesture)
     }
     
     private func styleChart() {
@@ -79,7 +71,6 @@ class ViewController: UIViewController {
         
         let lineChartData = LineChartData(dataSets: [lineChartDataSet, otherLineChartDataSet])
         lineChartData.setDrawValues(false)
-        
         
         lineChartView.data = lineChartData
         lineChartView.chartDescription?.text = ""
@@ -125,7 +116,8 @@ class ViewController: UIViewController {
         lineChartDataSet.mode = .cubicBezier
         otherLineChartDataSet.mode = .cubicBezier
         showingSmoothGraph = true
-        // lineChartView.data?.highlightEnabled = true
+        lineChartView.highlightValue(nil)
+        lineChartView.animate(xAxisDuration: 0.5)
         lineChartView.notifyDataSetChanged()
     }
     
@@ -133,31 +125,17 @@ class ViewController: UIViewController {
         lineChartDataSet.mode = .linear
         otherLineChartDataSet.mode = .linear
         showingSmoothGraph = false
-        // lineChartView.data?.highlightEnabled = true
+        lineChartView.animate(xAxisDuration: 0.5)
         lineChartView.notifyDataSetChanged()
     }
     
     @objc private func handleTap(recognizer: UITapGestureRecognizer) {
-        print("handling tap!")
         if recognizer.state == .ended {
-            print("ended")
             smoothGraph()
         } else {
-            print("linear FTW")
             linearizeGraph()
         }
     }
-    
-//    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        print("touches ended fired!")
-//        guard !showingSmoothGraph else { return }
-//        guard let touch = touches.first?.preciseLocation(in: self.view) else { return }
-//
-//        if lineChartView.frame.contains(touch) {
-//            print("2")
-//            smoothGraph()
-//        }
-//    }
 }
 
 extension ViewController: ChartViewDelegate {
@@ -168,11 +146,8 @@ extension ViewController: ChartViewDelegate {
         updateLabels(with: entry)
     }
     
-    func chartValueNothingSelected(_ chartView: ChartViewBase) {
-        print("nothing selected")
-        if !showingSmoothGraph {
-            smoothGraph()
-        }
+    func panGestureEnded(_ chartView: ChartViewBase) {
+        smoothGraph()
     }
 }
 
@@ -181,29 +156,7 @@ extension ViewController: UIGestureRecognizerDelegate {
         return true
     }
 }
-    
-//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        print("touches began fired!")
-//        guard showingSmoothGraph else { return }
-//        guard let touch = touches.first?.preciseLocation(in: self.view) else { return }
-//
-//        if lineChartView.frame.contains(touch) {
-//            print("1")
-//            linearizeGraph()
-//        }
-//    }
-    
-//    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        print("touches canceled fired!")
-////        guard !showingSmoothGraph else { return }
-////        guard let touch = touches.first?.preciseLocation(in: self.view) else { return }
-////
-////        if lineChartView.frame.contains(touch) {
-////            print("2")
-////            smoothGraph()
-////        }
-//    }
-//
+
 
 
 

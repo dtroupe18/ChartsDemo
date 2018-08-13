@@ -128,7 +128,7 @@ class ViewController: UIViewController {
         }
         
         lineChartDataSet = LineChartDataSet(values: lineChartDataEnteries, label: graphOneName)
-        lineChartDataSet.colors = [UIColor(red: 0, green: 1, blue: 0, alpha: 1)]
+        lineChartDataSet.colors = [UIColor(red: 0, green: 0, blue: 1, alpha: 1)]
         lineChartDataSet.circleColors = [UIColor(red: 0, green: 153/255, blue: 1, alpha: 1)]
         lineChartDataSet.axisDependency = .left
         lineChartDataSet.drawCirclesEnabled = false
@@ -141,6 +141,7 @@ class ViewController: UIViewController {
         lineChartData.setDrawValues(false)
         
         lineChartView.data = lineChartData
+        lineChartView.highlightPerTapEnabled = false // disable tap to highlight
         lineChartView.xAxis.valueFormatter = IndexAxisValueFormatter(values: dateLabels)
         lineChartView.chartDescription?.text = ""
         lineChartView.legend.enabled = false
@@ -272,8 +273,6 @@ extension ViewController: ChartViewDelegate {
     func panGestureEnded(_ chartView: ChartViewBase) {
         smoothGraph()
     }
-    
-    // add tap gesture ended
 }
 
 extension ViewController: UIGestureRecognizerDelegate {

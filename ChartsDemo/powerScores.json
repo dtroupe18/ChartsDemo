@@ -1,0 +1,1880 @@
+[
+    {
+        "uid": 200324,
+        "class_date": "2018-06-02 10:00:00",
+        "class_type": "Method",
+        "total_power": 289
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-03 17:00:00",
+        "class_type": "Method",
+        "total_power": 300
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-04 18:15:00",
+        "class_type": "Method",
+        "total_power": 300
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-07 19:15:00",
+        "class_type": "Method",
+        "total_power": 310
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-09 10:00:00",
+        "class_type": "Method",
+        "total_power": 295
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-10 17:00:00",
+        "class_type": "Method",
+        "total_power": 297
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-11 19:15:00",
+        "class_type": "Method",
+        "total_power": 303
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-16 10:00:00",
+        "class_type": "Method",
+        "total_power": 303
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-17 17:00:00",
+        "class_type": "Method",
+        "total_power": 304
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-18 18:15:00",
+        "class_type": "Method",
+        "total_power": 306
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-12 19:15:00",
+        "class_type": "Method",
+        "total_power": 306
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-19 19:15:00",
+        "class_type": "Method",
+        "total_power": 310
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-21 19:15:00",
+        "class_type": "Method",
+        "total_power": 312
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-20 18:15:00",
+        "class_type": "Method",
+        "total_power": 308
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-24 10:00:00",
+        "class_type": "Method",
+        "total_power": 306
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-28 12:30:00",
+        "class_type": "Method",
+        "total_power": 313
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-29 10:30:00",
+        "class_type": "Method",
+        "total_power": 283
+    },
+    {
+        "uid": 200324,
+        "class_date": "2018-06-30 08:30:00",
+        "class_type": "Method",
+        "total_power": 302
+    },
+    {
+        "uid": 204779,
+        "class_date": "2018-06-02 09:30:00",
+        "class_type": "Method",
+        "total_power": 280
+    },
+    {
+        "uid": 204779,
+        "class_date": "2018-06-09 08:30:00",
+        "class_type": "Method",
+        "total_power": 269
+    },
+    {
+        "uid": 204779,
+        "class_date": "2018-06-16 08:30:00",
+        "class_type": "Method",
+        "total_power": 264
+    },
+    {
+        "uid": 204779,
+        "class_date": "2018-06-23 09:30:00",
+        "class_type": "Method",
+        "total_power": 267
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-05 07:30:00",
+        "class_type": "Method",
+        "total_power": 275
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-10 10:00:00",
+        "class_type": "Method",
+        "total_power": 376
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-04 17:30:00",
+        "class_type": "Method",
+        "total_power": 282
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-06 07:30:00",
+        "class_type": "Method",
+        "total_power": 273
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-07 17:30:00",
+        "class_type": "Tempo",
+        "total_power": 282
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-08 12:15:00",
+        "class_type": "Method",
+        "total_power": 291
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-14 07:30:00",
+        "class_type": "Method",
+        "total_power": 285
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-13 07:30:00",
+        "class_type": "Method",
+        "total_power": 288
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-12 12:15:00",
+        "class_type": "Method",
+        "total_power": 279
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-11 17:30:00",
+        "class_type": "Method",
+        "total_power": 287
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-17 10:00:00",
+        "class_type": "Method",
+        "total_power": 375
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-15 12:15:00",
+        "class_type": "Method",
+        "total_power": 281
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-22 12:15:00",
+        "class_type": "Method",
+        "total_power": 287
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-21 07:30:00",
+        "class_type": "Method",
+        "total_power": 0
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-23 10:00:00",
+        "class_type": "Method",
+        "total_power": 279
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-29 06:00:00",
+        "class_type": "Power",
+        "total_power": 279
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-25 17:30:00",
+        "class_type": "Method",
+        "total_power": 290
+    },
+    {
+        "uid": 208098,
+        "class_date": "2018-06-27 12:30:00",
+        "class_type": "Method",
+        "total_power": 284
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-02 08:15:00",
+        "class_type": "Method",
+        "total_power": 310
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-02 09:15:00",
+        "class_type": "Method",
+        "total_power": 257
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-03 08:30:00",
+        "class_type": "Method",
+        "total_power": 300
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-04 06:00:00",
+        "class_type": "Method",
+        "total_power": 295
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-03 09:30:00",
+        "class_type": "Method",
+        "total_power": 0
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-15 08:30:00",
+        "class_type": "Method",
+        "total_power": 298
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-16 07:15:00",
+        "class_type": "Method",
+        "total_power": 307
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-16 08:15:00",
+        "class_type": "Method",
+        "total_power": 305
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-11 06:00:00",
+        "class_type": "Method",
+        "total_power": 304
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-10 11:45:00",
+        "class_type": "Method",
+        "total_power": 323
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-17 08:30:00",
+        "class_type": "Method",
+        "total_power": 300
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-23 07:15:00",
+        "class_type": "Method",
+        "total_power": 307
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-23 08:15:00",
+        "class_type": "Method",
+        "total_power": 304
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-24 09:30:00",
+        "class_type": "Method",
+        "total_power": 407
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-21 06:30:00",
+        "class_type": "Power",
+        "total_power": 310
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-30 07:15:00",
+        "class_type": "Method",
+        "total_power": 311
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-26 06:30:00",
+        "class_type": "Method",
+        "total_power": 295
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-25 06:00:00",
+        "class_type": "Method",
+        "total_power": 292
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-29 07:30:00",
+        "class_type": "Method",
+        "total_power": 316
+    },
+    {
+        "uid": 212367,
+        "class_date": "2018-06-30 08:15:00",
+        "class_type": "Method",
+        "total_power": 0
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-07 06:30:00",
+        "class_type": "Method",
+        "total_power": 277
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-09 06:15:00",
+        "class_type": "Method",
+        "total_power": 270
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-10 10:30:00",
+        "class_type": "Method",
+        "total_power": 298
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-12 05:30:00",
+        "class_type": "Method",
+        "total_power": 294
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-20 06:30:00",
+        "class_type": "Method",
+        "total_power": 245
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-19 06:30:00",
+        "class_type": "Method",
+        "total_power": 272
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-23 09:30:00",
+        "class_type": "Method",
+        "total_power": 275
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-24 08:30:00",
+        "class_type": "Method",
+        "total_power": 298
+    },
+    {
+        "uid": 611532,
+        "class_date": "2018-06-28 06:30:00",
+        "class_type": "Method",
+        "total_power": 287
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-01 05:30:00",
+        "class_type": "Method",
+        "total_power": 310
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-03 07:30:00",
+        "class_type": "Method",
+        "total_power": 305
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-09 06:15:00",
+        "class_type": "Method",
+        "total_power": 407
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-05 05:30:00",
+        "class_type": "Method",
+        "total_power": 323
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-07 05:30:00",
+        "class_type": "Method",
+        "total_power": 317
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-08 05:30:00",
+        "class_type": "Method",
+        "total_power": 317
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-10 08:30:00",
+        "class_type": "Method",
+        "total_power": 322
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-06 05:00:00",
+        "class_type": "Method",
+        "total_power": 308
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-13 05:00:00",
+        "class_type": "Method",
+        "total_power": 233
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-17 07:30:00",
+        "class_type": "Method",
+        "total_power": 311
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-15 05:30:00",
+        "class_type": "Method",
+        "total_power": 312
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-14 05:30:00",
+        "class_type": "Method",
+        "total_power": 314
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-12 05:30:00",
+        "class_type": "Method",
+        "total_power": 325
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-24 08:30:00",
+        "class_type": "Method",
+        "total_power": 319
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-22 05:30:00",
+        "class_type": "Method",
+        "total_power": 323
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-21 05:30:00",
+        "class_type": "Method",
+        "total_power": 317
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-20 05:30:00",
+        "class_type": "Method",
+        "total_power": 322
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-19 05:30:00",
+        "class_type": "Method",
+        "total_power": 324
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-28 05:30:00",
+        "class_type": "Method",
+        "total_power": 314
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-27 05:30:00",
+        "class_type": "Method",
+        "total_power": 321
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-26 05:30:00",
+        "class_type": "Method",
+        "total_power": 322
+    },
+    {
+        "uid": 624648,
+        "class_date": "2018-06-29 05:00:00",
+        "class_type": "Method",
+        "total_power": 313
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-09 09:30:00",
+        "class_type": "Method",
+        "total_power": 209
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-08 07:15:00",
+        "class_type": "Method",
+        "total_power": 207
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-15 07:15:00",
+        "class_type": "Method",
+        "total_power": 210
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-16 09:30:00",
+        "class_type": "Method",
+        "total_power": 214
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-18 07:15:00",
+        "class_type": "Method",
+        "total_power": 234
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-13 06:15:00",
+        "class_type": "Method",
+        "total_power": 222
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-25 07:15:00",
+        "class_type": "Method",
+        "total_power": 232
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-20 06:15:00",
+        "class_type": "Method",
+        "total_power": 234
+    },
+    {
+        "uid": 723243,
+        "class_date": "2018-06-30 07:15:00",
+        "class_type": "Method",
+        "total_power": 230
+    },
+    {
+        "uid": 902385,
+        "class_date": "2018-06-01 16:30:00",
+        "class_type": "Method",
+        "total_power": 280
+    },
+    {
+        "uid": 902385,
+        "class_date": "2018-06-08 16:30:00",
+        "class_type": "Method",
+        "total_power": 274
+    },
+    {
+        "uid": 902385,
+        "class_date": "2018-06-14 16:30:00",
+        "class_type": "Method",
+        "total_power": 283
+    },
+    {
+        "uid": 909735,
+        "class_date": "2018-06-08 10:30:00",
+        "class_type": "Method",
+        "total_power": 202
+    },
+    {
+        "uid": 909735,
+        "class_date": "2018-06-13 09:30:00",
+        "class_type": "Method",
+        "total_power": 213
+    },
+    {
+        "uid": 909735,
+        "class_date": "2018-06-19 10:30:00",
+        "class_type": "Method",
+        "total_power": 259
+    },
+    {
+        "uid": 909735,
+        "class_date": "2018-06-22 12:00:00",
+        "class_type": "Beats",
+        "total_power": 245
+    },
+    {
+        "uid": 909735,
+        "class_date": "2018-06-23 12:30:00",
+        "class_type": "Method",
+        "total_power": 269
+    },
+    {
+        "uid": 909735,
+        "class_date": "2018-06-26 10:30:00",
+        "class_type": "Method",
+        "total_power": 266
+    },
+    {
+        "uid": 912465,
+        "class_date": "2018-06-01 17:30:00",
+        "class_type": "Method",
+        "total_power": 250
+    },
+    {
+        "uid": 912465,
+        "class_date": "2018-06-08 16:30:00",
+        "class_type": "Method",
+        "total_power": 234
+    },
+    {
+        "uid": 912465,
+        "class_date": "2018-06-22 12:15:00",
+        "class_type": "Method",
+        "total_power": 290
+    },
+    {
+        "uid": 912465,
+        "class_date": "2018-06-29 07:00:00",
+        "class_type": "Method",
+        "total_power": 238
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-01 07:00:00",
+        "class_type": "Method",
+        "total_power": 249
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-02 09:30:00",
+        "class_type": "Method",
+        "total_power": 262
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-02 10:30:00",
+        "class_type": "Method",
+        "total_power": 254
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-09 07:30:00",
+        "class_type": "Power",
+        "total_power": 238
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-07 07:00:00",
+        "class_type": "Power",
+        "total_power": 250
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-08 07:00:00",
+        "class_type": "Method",
+        "total_power": 228
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-06 06:00:00",
+        "class_type": "Method",
+        "total_power": 230
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-05 07:00:00",
+        "class_type": "Method",
+        "total_power": 240
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-12 07:00:00",
+        "class_type": "Method",
+        "total_power": 196
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-14 07:00:00",
+        "class_type": "Power",
+        "total_power": 211
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-13 08:00:00",
+        "class_type": "Method",
+        "total_power": 218
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-18 06:00:00",
+        "class_type": "Method",
+        "total_power": 248
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-23 08:30:00",
+        "class_type": "Method",
+        "total_power": 277
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-21 07:00:00",
+        "class_type": "Power",
+        "total_power": 195
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-19 07:00:00",
+        "class_type": "Method",
+        "total_power": 238
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-24 08:30:00",
+        "class_type": "Method",
+        "total_power": 300
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-22 18:30:00",
+        "class_type": "Method",
+        "total_power": 260
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-26 07:00:00",
+        "class_type": "Method",
+        "total_power": 258
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-27 06:00:00",
+        "class_type": "Method",
+        "total_power": 232
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-28 07:00:00",
+        "class_type": "Power",
+        "total_power": 283
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-29 07:00:00",
+        "class_type": "Method",
+        "total_power": 248
+    },
+    {
+        "uid": 963448,
+        "class_date": "2018-06-30 07:30:00",
+        "class_type": "Power",
+        "total_power": 283
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-04 12:00:00",
+        "class_type": "Method",
+        "total_power": 276
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-05 09:30:00",
+        "class_type": "Method",
+        "total_power": 274
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-09 10:45:00",
+        "class_type": "Method",
+        "total_power": 242
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-07 09:30:00",
+        "class_type": "Method",
+        "total_power": 92
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-11 12:00:00",
+        "class_type": "Method",
+        "total_power": 237
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-15 12:00:00",
+        "class_type": "Method",
+        "total_power": 262
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-13 12:00:00",
+        "class_type": "Power",
+        "total_power": 252
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-18 12:00:00",
+        "class_type": "Method",
+        "total_power": 250
+    },
+    {
+        "uid": 972233,
+        "class_date": "2018-06-21 09:30:00",
+        "class_type": "Method",
+        "total_power": 266
+    },
+    {
+        "uid": 980811,
+        "class_date": "2018-06-02 09:30:00",
+        "class_type": "Method",
+        "total_power": 247
+    },
+    {
+        "uid": 980811,
+        "class_date": "2018-06-06 06:00:00",
+        "class_type": "Method",
+        "total_power": 236
+    },
+    {
+        "uid": 980811,
+        "class_date": "2018-06-18 18:30:00",
+        "class_type": "Method",
+        "total_power": 238
+    },
+    {
+        "uid": 980811,
+        "class_date": "2018-06-28 18:30:00",
+        "class_type": "Method",
+        "total_power": 252
+    },
+    {
+        "uid": 981049,
+        "class_date": "2018-06-10 19:00:00",
+        "class_type": "Tempo",
+        "total_power": 262
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-02 08:30:00",
+        "class_type": "Tempo",
+        "total_power": 253
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-02 09:30:00",
+        "class_type": "Method",
+        "total_power": 225
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-01 17:30:00",
+        "class_type": "Method",
+        "total_power": 252
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-09 08:30:00",
+        "class_type": "Tempo",
+        "total_power": 261
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-07 05:30:00",
+        "class_type": "Method",
+        "total_power": 220
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-03 09:30:00",
+        "class_type": "Method",
+        "total_power": 276
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-05 17:30:00",
+        "class_type": "Method",
+        "total_power": 276
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-08 17:30:00",
+        "class_type": "Method",
+        "total_power": 258
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-09 09:30:00",
+        "class_type": "Method",
+        "total_power": 242
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-23 08:30:00",
+        "class_type": "Tempo",
+        "total_power": 253
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-21 05:30:00",
+        "class_type": "Method",
+        "total_power": 252
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-24 08:30:00",
+        "class_type": "Method",
+        "total_power": 254
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-22 05:30:00",
+        "class_type": "Method",
+        "total_power": 311
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-30 09:30:00",
+        "class_type": "Method",
+        "total_power": 272
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-25 17:30:00",
+        "class_type": "Method",
+        "total_power": 245
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-26 05:30:00",
+        "class_type": "Method",
+        "total_power": 248
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-28 05:30:00",
+        "class_type": "Method",
+        "total_power": 249
+    },
+    {
+        "uid": 1060625,
+        "class_date": "2018-06-29 05:30:00",
+        "class_type": "Method",
+        "total_power": 336
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-01 17:00:00",
+        "class_type": "Method",
+        "total_power": 279
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-03 11:15:00",
+        "class_type": "Method",
+        "total_power": 257
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-05 18:00:00",
+        "class_type": "Method",
+        "total_power": 251
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-11 17:30:00",
+        "class_type": "Method",
+        "total_power": 282
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-17 11:15:00",
+        "class_type": "Method",
+        "total_power": 275
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-18 18:00:00",
+        "class_type": "Method",
+        "total_power": 272
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-19 19:00:00",
+        "class_type": "Method",
+        "total_power": 283
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-22 18:00:00",
+        "class_type": "Method",
+        "total_power": 271
+    },
+    {
+        "uid": 1138399,
+        "class_date": "2018-06-23 09:00:00",
+        "class_type": "Method",
+        "total_power": 358
+    },
+    {
+        "uid": 1175617,
+        "class_date": "2018-06-11 17:30:00",
+        "class_type": "Method",
+        "total_power": 318
+    },
+    {
+        "uid": 1175617,
+        "class_date": "2018-06-15 17:30:00",
+        "class_type": "Method",
+        "total_power": 345
+    },
+    {
+        "uid": 1175617,
+        "class_date": "2018-06-19 06:00:00",
+        "class_type": "Method",
+        "total_power": 375
+    },
+    {
+        "uid": 1175617,
+        "class_date": "2018-06-20 07:00:00",
+        "class_type": "Method",
+        "total_power": 352
+    },
+    {
+        "uid": 1175617,
+        "class_date": "2018-06-22 07:00:00",
+        "class_type": "Method",
+        "total_power": 339
+    },
+    {
+        "uid": 1175617,
+        "class_date": "2018-06-26 18:30:00",
+        "class_type": "Power",
+        "total_power": 365
+    },
+    {
+        "uid": 1237288,
+        "class_date": "2018-06-01 07:00:00",
+        "class_type": "Method",
+        "total_power": 264
+    },
+    {
+        "uid": 1237288,
+        "class_date": "2018-06-04 07:00:00",
+        "class_type": "Method",
+        "total_power": 273
+    },
+    {
+        "uid": 1237288,
+        "class_date": "2018-06-18 08:30:00",
+        "class_type": "Method",
+        "total_power": 282
+    },
+    {
+        "uid": 1288726,
+        "class_date": "2018-06-11 17:30:00",
+        "class_type": "Method",
+        "total_power": 266
+    },
+    {
+        "uid": 1288726,
+        "class_date": "2018-06-13 17:30:00",
+        "class_type": "Method",
+        "total_power": 262
+    },
+    {
+        "uid": 1288726,
+        "class_date": "2018-06-15 06:00:00",
+        "class_type": "Method",
+        "total_power": 254
+    },
+    {
+        "uid": 1288726,
+        "class_date": "2018-06-18 17:30:00",
+        "class_type": "Method",
+        "total_power": 267
+    },
+    {
+        "uid": 1288726,
+        "class_date": "2018-06-21 17:30:00",
+        "class_type": "Method",
+        "total_power": 277
+    },
+    {
+        "uid": 1288726,
+        "class_date": "2018-06-24 08:30:00",
+        "class_type": "Method",
+        "total_power": 272
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-01 12:15:00",
+        "class_type": "Method",
+        "total_power": 259
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-09 08:30:00",
+        "class_type": "Method",
+        "total_power": 274
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-05 17:30:00",
+        "class_type": "Tempo",
+        "total_power": 196
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-11 17:30:00",
+        "class_type": "Method",
+        "total_power": 283
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-16 08:30:00",
+        "class_type": "Method",
+        "total_power": 260
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-22 12:15:00",
+        "class_type": "Method",
+        "total_power": 253
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-18 17:30:00",
+        "class_type": "Method",
+        "total_power": 226
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-25 17:30:00",
+        "class_type": "Method",
+        "total_power": 236
+    },
+    {
+        "uid": 1290456,
+        "class_date": "2018-06-29 12:15:00",
+        "class_type": "Method",
+        "total_power": 263
+    },
+    {
+        "uid": 1316813,
+        "class_date": "2018-06-20 12:15:00",
+        "class_type": "Method",
+        "total_power": 201
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-02 10:30:00",
+        "class_type": "Method",
+        "total_power": 277
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-04 17:30:00",
+        "class_type": "Method",
+        "total_power": 266
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-07 18:30:00",
+        "class_type": "Method",
+        "total_power": 289
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-06 17:30:00",
+        "class_type": "Method",
+        "total_power": 262
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-11 17:30:00",
+        "class_type": "Method",
+        "total_power": 274
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-05 18:30:00",
+        "class_type": "Method",
+        "total_power": 277
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-10 16:45:00",
+        "class_type": "Method",
+        "total_power": 292
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-13 17:30:00",
+        "class_type": "Method",
+        "total_power": 264
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-14 18:30:00",
+        "class_type": "Method",
+        "total_power": 293
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-18 17:30:00",
+        "class_type": "Method",
+        "total_power": 265
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-23 10:30:00",
+        "class_type": "Method",
+        "total_power": 265
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-20 17:30:00",
+        "class_type": "Method",
+        "total_power": 270
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-21 18:30:00",
+        "class_type": "Method",
+        "total_power": 284
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-25 17:30:00",
+        "class_type": "Method",
+        "total_power": 271
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-26 18:30:00",
+        "class_type": "Method",
+        "total_power": 276
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-27 17:30:00",
+        "class_type": "Method",
+        "total_power": 266
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-28 18:30:00",
+        "class_type": "Method",
+        "total_power": 285
+    },
+    {
+        "uid": 1360977,
+        "class_date": "2018-06-30 09:30:00",
+        "class_type": "Method",
+        "total_power": 282
+    },
+    {
+        "uid": 1399109,
+        "class_date": "2018-06-06 18:30:00",
+        "class_type": "Method",
+        "total_power": 241
+    },
+    {
+        "uid": 1399109,
+        "class_date": "2018-06-11 18:30:00",
+        "class_type": "Tempo",
+        "total_power": 258
+    },
+    {
+        "uid": 1399109,
+        "class_date": "2018-06-13 18:30:00",
+        "class_type": "Method",
+        "total_power": 244
+    },
+    {
+        "uid": 1434616,
+        "class_date": "2018-06-02 12:30:00",
+        "class_type": "Method",
+        "total_power": 265
+    },
+    {
+        "uid": 1461821,
+        "class_date": "2018-06-11 07:00:00",
+        "class_type": "Method",
+        "total_power": 330
+    },
+    {
+        "uid": 1461821,
+        "class_date": "2018-06-12 07:00:00",
+        "class_type": "Method",
+        "total_power": 301
+    },
+    {
+        "uid": 1461821,
+        "class_date": "2018-06-13 19:00:00",
+        "class_type": "Method",
+        "total_power": 317
+    },
+    {
+        "uid": 1487371,
+        "class_date": "2018-06-08 10:30:00",
+        "class_type": "Method",
+        "total_power": 244
+    },
+    {
+        "uid": 1487371,
+        "class_date": "2018-06-09 10:30:00",
+        "class_type": "Method",
+        "total_power": 233
+    },
+    {
+        "uid": 1487371,
+        "class_date": "2018-06-10 10:30:00",
+        "class_type": "Method",
+        "total_power": 252
+    },
+    {
+        "uid": 1487371,
+        "class_date": "2018-06-12 10:30:00",
+        "class_type": "Method",
+        "total_power": 260
+    },
+    {
+        "uid": 1487371,
+        "class_date": "2018-06-14 10:30:00",
+        "class_type": "Method",
+        "total_power": 261
+    },
+    {
+        "uid": 1487371,
+        "class_date": "2018-06-16 10:30:00",
+        "class_type": "Method",
+        "total_power": 255
+    },
+    {
+        "uid": 1487375,
+        "class_date": "2018-06-01 06:30:00",
+        "class_type": "Power",
+        "total_power": 244
+    },
+    {
+        "uid": 1487375,
+        "class_date": "2018-06-08 06:30:00",
+        "class_type": "Power",
+        "total_power": 308
+    },
+    {
+        "uid": 1487375,
+        "class_date": "2018-06-10 07:30:00",
+        "class_type": "Power",
+        "total_power": 280
+    },
+    {
+        "uid": 1487375,
+        "class_date": "2018-06-29 06:30:00",
+        "class_type": "Power",
+        "total_power": 250
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-01 17:30:00",
+        "class_type": "Method",
+        "total_power": 337
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-02 09:30:00",
+        "class_type": "Method",
+        "total_power": 347
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-03 10:30:00",
+        "class_type": "Method",
+        "total_power": 322
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-06 18:30:00",
+        "class_type": "Method",
+        "total_power": 348
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-07 18:30:00",
+        "class_type": "Method",
+        "total_power": 344
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-08 18:30:00",
+        "class_type": "Method",
+        "total_power": 344
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-09 10:30:00",
+        "class_type": "Method",
+        "total_power": 352
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-12 18:30:00",
+        "class_type": "Method",
+        "total_power": 342
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-14 18:30:00",
+        "class_type": "Method",
+        "total_power": 352
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-15 17:30:00",
+        "class_type": "Method",
+        "total_power": 369
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-18 17:30:00",
+        "class_type": "Method",
+        "total_power": 345
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-20 19:30:00",
+        "class_type": "Method",
+        "total_power": 350
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-21 18:30:00",
+        "class_type": "Method",
+        "total_power": 357
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-22 18:30:00",
+        "class_type": "Method",
+        "total_power": 0
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-27 19:30:00",
+        "class_type": "Method",
+        "total_power": 371
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-28 18:30:00",
+        "class_type": "Method",
+        "total_power": 344
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-29 18:30:00",
+        "class_type": "Method",
+        "total_power": 355
+    },
+    {
+        "uid": 1496151,
+        "class_date": "2018-06-30 11:30:00",
+        "class_type": "Method",
+        "total_power": 353
+    },
+    {
+        "uid": 1506326,
+        "class_date": "2018-06-11 08:30:00",
+        "class_type": "Method",
+        "total_power": 254
+    },
+    {
+        "uid": 1506326,
+        "class_date": "2018-06-12 06:30:00",
+        "class_type": "Method",
+        "total_power": 222
+    },
+    {
+        "uid": 1506326,
+        "class_date": "2018-06-15 06:30:00",
+        "class_type": "Power",
+        "total_power": 273
+    },
+    {
+        "uid": 1506326,
+        "class_date": "2018-06-18 06:30:00",
+        "class_type": "Method",
+        "total_power": 257
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-03 09:15:00",
+        "class_type": "Method",
+        "total_power": 222
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-04 06:00:00",
+        "class_type": "Method",
+        "total_power": 216
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-05 06:00:00",
+        "class_type": "Method",
+        "total_power": 217
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-09 08:15:00",
+        "class_type": "Method",
+        "total_power": 225
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-10 09:15:00",
+        "class_type": "Method",
+        "total_power": 224
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-06 06:00:00",
+        "class_type": "Method",
+        "total_power": 202
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-12 06:00:00",
+        "class_type": "Method",
+        "total_power": 207
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-16 08:15:00",
+        "class_type": "Method",
+        "total_power": 201
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-17 09:15:00",
+        "class_type": "Method",
+        "total_power": 232
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-11 06:00:00",
+        "class_type": "Method",
+        "total_power": 215
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-14 06:00:00",
+        "class_type": "Method",
+        "total_power": 212
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-13 06:00:00",
+        "class_type": "Method",
+        "total_power": 227
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-18 06:00:00",
+        "class_type": "Method",
+        "total_power": 219
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-19 06:00:00",
+        "class_type": "Method",
+        "total_power": 182
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-21 06:00:00",
+        "class_type": "Method",
+        "total_power": 218
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-24 09:15:00",
+        "class_type": "Method",
+        "total_power": 219
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-23 08:15:00",
+        "class_type": "Method",
+        "total_power": 220
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-25 07:00:00",
+        "class_type": "Method",
+        "total_power": 214
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-26 07:00:00",
+        "class_type": "Method",
+        "total_power": 223
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-30 08:15:00",
+        "class_type": "Method",
+        "total_power": 212
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-27 08:00:00",
+        "class_type": "Method",
+        "total_power": 195
+    },
+    {
+        "uid": 1518098,
+        "class_date": "2018-06-28 07:00:00",
+        "class_type": "Method",
+        "total_power": 231
+    },
+    {
+        "uid": 1555666,
+        "class_date": "2018-06-18 07:30:00",
+        "class_type": "Method",
+        "total_power": 272
+    },
+    {
+        "uid": 1555666,
+        "class_date": "2018-06-21 06:00:00",
+        "class_type": "Method",
+        "total_power": 276
+    },
+    {
+        "uid": 1555666,
+        "class_date": "2018-06-27 06:30:00",
+        "class_type": "Method",
+        "total_power": 291
+    },
+    {
+        "uid": 1647909,
+        "class_date": "2018-06-16 09:00:00",
+        "class_type": "Method",
+        "total_power": 284
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-01 07:00:00",
+        "class_type": "Method",
+        "total_power": 279
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-04 17:30:00",
+        "class_type": "Method",
+        "total_power": 285
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-05 19:30:00",
+        "class_type": "Method",
+        "total_power": 286
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-06 17:30:00",
+        "class_type": "Method",
+        "total_power": 291
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-07 17:30:00",
+        "class_type": "Method",
+        "total_power": 303
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-08 07:00:00",
+        "class_type": "Method",
+        "total_power": 259
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-09 07:30:00",
+        "class_type": "Method",
+        "total_power": 293
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-11 07:00:00",
+        "class_type": "Power",
+        "total_power": 283
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-12 07:00:00",
+        "class_type": "Method",
+        "total_power": 279
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-13 07:00:00",
+        "class_type": "Method",
+        "total_power": 267
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-14 07:00:00",
+        "class_type": "Power",
+        "total_power": 275
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-15 07:00:00",
+        "class_type": "Method",
+        "total_power": 279
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-17 13:00:00",
+        "class_type": "Method",
+        "total_power": 302
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-18 07:00:00",
+        "class_type": "Power",
+        "total_power": 277
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-19 07:00:00",
+        "class_type": "Method",
+        "total_power": 250
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-20 07:00:00",
+        "class_type": "Method",
+        "total_power": 312
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-21 07:00:00",
+        "class_type": "Power",
+        "total_power": 288
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-21 17:30:00",
+        "class_type": "Method",
+        "total_power": 303
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-22 17:30:00",
+        "class_type": "Method",
+        "total_power": 300
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-26 07:00:00",
+        "class_type": "Method",
+        "total_power": 276
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-27 17:30:00",
+        "class_type": "Method",
+        "total_power": 293
+    },
+    {
+        "uid": 1652139,
+        "class_date": "2018-06-28 07:00:00",
+        "class_type": "Power",
+        "total_power": 280
+    },
+    {
+        "uid": 1670590,
+        "class_date": "2018-06-01 09:30:00",
+        "class_type": "Method",
+        "total_power": 222
+    },
+    {
+        "uid": 1670590,
+        "class_date": "2018-06-08 09:30:00",
+        "class_type": "Method",
+        "total_power": 207
+    },
+    {
+        "uid": 1670590,
+        "class_date": "2018-06-09 10:15:00",
+        "class_type": "Method",
+        "total_power": 201
+    },
+    {
+        "uid": 1670590,
+        "class_date": "2018-06-10 09:00:00",
+        "class_type": "Method",
+        "total_power": 195
+    },
+    {
+        "uid": 1670590,
+        "class_date": "2018-06-11 09:30:00",
+        "class_type": "Method",
+        "total_power": 201
+    },
+    {
+        "uid": 1670590,
+        "class_date": "2018-06-25 09:30:00",
+        "class_type": "Method",
+        "total_power": 230
+    },
+    {
+        "uid": 1673907,
+        "class_date": "2018-06-12 19:30:00",
+        "class_type": "Method",
+        "total_power": 241
+    }
+]

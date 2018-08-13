@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var graphOneLabel: UILabel!
     @IBOutlet weak var graphTwoLabel: UILabel!
+    @IBOutlet weak var classTypeLabel: UILabel!
+    @IBOutlet weak var moreThanMethodLabel: UILabel!
+    @IBOutlet weak var totalClassCountLabel: UILabel!
     
     @IBOutlet weak var lineChartView: LineChartView!
     
@@ -28,11 +31,63 @@ class ViewController: UIViewController {
     var lineChartDataSet = LineChartDataSet()
     var otherLineChartDataSet = LineChartDataSet()
     
+    var allResults = [ClassResults]()
+    var allUids = [Int]()
+    var userResultsDict = [Int: [ClassResults]]()
+    var dateLabels = [String]()
+    var currentIndex: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         lineChartView.delegate = self
         styleChart()
-        setupChart()
+        loadDataFromJson()
+    }
+    
+    @IBAction func nextPressed(_ sender: UIButton) {
+        if currentIndex < allUids.count - 1 {
+            currentIndex += 1
+        } else {
+            currentIndex = 0
+        }
+        setupSingleChart()
+    }
+    
+    @IBAction func lastPressed(_ sender: UIButton) {
+        if currentIndex - 1 >= 0 {
+            currentIndex -= 1
+            setupSingleChart()
+        }
+    }
+    
+    private func loadDataFromJson() {
+        let bundle: Bundle = Bundle(for: type(of: self))
+        if let path: String = bundle.path(forResource: "powerScores", ofType: "json") {
+            let url: URL = URL(fileURLWithPath: path)
+            
+            do {
+                let simulatedJsonData: Data = try Data(contentsOf: url)
+                print("simulated Data: \(simulatedJsonData)")
+                allResults = try JSONDecoder().decode([ClassResults].self, from: simulatedJsonData)
+                
+                for result in allResults {
+                    if userResultsDict[result.uid] != nil {
+                        userResultsDict[result.uid]?.append(result)
+                    } else {
+                        userResultsDict[result.uid] = [result]
+                    }
+                    if !allUids.contains(result.uid) {
+                        allUids.append(result.uid)
+                    }
+                }
+                setupSingleChart()
+                
+            } catch {
+                print("Error thrown: \(error)")
+            }
+        } else {
+            print("could not load JSON data")
+        }
     }
     
     private func styleChart() {
@@ -40,7 +95,72 @@ class ViewController: UIViewController {
         lineChartView.layer.borderColor = UIColor.black.cgColor
     }
     
-    private func setupChart() {
+    private func setupSingleChart() {
+        // create total power graph without regard to class type
+        guard let currentResults = userResultsDict[allUids[currentIndex]] else { print("Nil in dict!"); return }
+        totalClassCountLabel.text = "User: \(currentResults[0].uid) has \(currentResults.count) classes in June"
+        var lineChartDataEnteries = [ChartDataEntry]()
+        dateLabels.removeAll()
+        
+        var notMethodClassCount: Int = 0
+        for (index, val) in currentResults.enumerated() {
+            lineChartDataEnteries.append(ChartDataEntry(x: Double(index), y: Double(val.totalPower)))
+            dateLabels.append(val.classDate)
+            if val.classType != .method {
+                notMethodClassCount += 1
+            }
+        }
+        
+        moreThanMethodLabel.text = "Has \(notMethodClassCount) non Method classes"
+        if notMethodClassCount > 2 {
+            moreThanMethodLabel.textColor = .red
+        } else {
+            moreThanMethodLabel.textColor = .black
+        }
+        
+        if currentResults.count < 3 {
+            print("less than 3!!!!!!!")
+            lineChartView.noDataText = "Take more classes to see your results"
+            clearLabels()
+            lineChartView.data = nil
+            lineChartView.notifyDataSetChanged()
+            return
+        }
+        
+        lineChartDataSet = LineChartDataSet(values: lineChartDataEnteries, label: graphOneName)
+        lineChartDataSet.colors = [UIColor(red: 0, green: 1, blue: 0, alpha: 1)]
+        lineChartDataSet.circleColors = [UIColor(red: 0, green: 153/255, blue: 1, alpha: 1)]
+        lineChartDataSet.axisDependency = .left
+        lineChartDataSet.drawCirclesEnabled = false
+        lineChartDataSet.drawHorizontalHighlightIndicatorEnabled = false
+        lineChartDataSet.highlightColor = UIColor.black
+        lineChartDataSet.mode = .cubicBezier
+
+        
+        let lineChartData = LineChartData(dataSets: [lineChartDataSet, otherLineChartDataSet])
+        lineChartData.setDrawValues(false)
+        
+        lineChartView.data = lineChartData
+        lineChartView.xAxis.valueFormatter = IndexAxisValueFormatter(values: dateLabels)
+        lineChartView.chartDescription?.text = ""
+        lineChartView.legend.enabled = false
+        lineChartView.leftAxis.enabled = false
+        lineChartView.rightAxis.enabled = false
+        lineChartView.xAxis.enabled = false
+        lineChartView.doubleTapToZoomEnabled = false
+        lineChartView.xAxis.drawGridLinesEnabled = false
+        lineChartView.xAxis.drawAxisLineEnabled = false
+        lineChartView.rightAxis.drawGridLinesEnabled = false
+        lineChartView.rightAxis.drawAxisLineEnabled = false
+        lineChartView.leftAxis.drawGridLinesEnabled = false
+        lineChartView.leftAxis.drawAxisLineEnabled = false
+        lineChartView.animate(yAxisDuration: 0.4)
+        
+        lineChartView.notifyDataSetChanged()
+        
+    }
+    
+    private func oldSetupChart() {
         var lineChartDataEnteries = [ChartDataEntry]()
         var otherLineChartDataEnteries = [ChartDataEntry]()
         
@@ -85,31 +205,42 @@ class ViewController: UIViewController {
         lineChartView.rightAxis.drawAxisLineEnabled = false
         lineChartView.leftAxis.drawGridLinesEnabled = false
         lineChartView.leftAxis.drawAxisLineEnabled = false
-        lineChartView.animate(yAxisDuration: 1.0)
+        lineChartView.animate(yAxisDuration: 0.4)
         
         lineChartView.notifyDataSetChanged()
     }
     
-    private func updateLabels(with entry: ChartDataEntry) {
-        guard let dataSets = lineChartView.data?.dataSets else { return }
-        guard !dataSets.isEmpty else { return }
+    private func getBetterDateString(dateString: String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        guard let date = dateFormatter.date(from: dateString) else { print("date nil"); return ""}
         
-        if dataSets.count > 1 {
-            let set1 = dataSets[0]
-            let set2 = dataSets[1]
+        dateFormatter.dateFormat = "MMM dd, HH:mm"
+        return dateFormatter.string(from: date)
+    }
+    
+    private func updateLabels(with entry: ChartDataEntry) {
+        guard let dataSets = lineChartView.data?.dataSets else { print("4"); return }
+        guard !dataSets.isEmpty else { print("5"); return }
+        
+        // print("dataSets.count: \(dataSets.count)")
+        
+        if dataSets.count > 0 {
+            let xValue = Int(entry.x)
+            let currentUid = allUids[currentIndex]
+            guard let userResults = userResultsDict[currentUid] else { return }
             
-            guard let label1 = set1.label else { return }
-            guard let yValue1 = set1.entryForIndex(Int(entry.x))?.y else { return }
-            guard let yValue2 = set2.entryForIndex(Int(entry.x))?.y else { return }
-            
-            if label1 == graphOneName {
-                graphOneLabel.text = "\(yValue1) dollars"
-                graphTwoLabel.text = "\(yValue2) dollars"
-            } else {
-                graphOneLabel.text = "\(yValue2) dollars"
-                graphTwoLabel.text = "\(yValue1) dollars"
-            }
+            let currentClass = userResults[xValue]
+            classTypeLabel.text = currentClass.classType.rawValue
+            graphOneLabel.text = "\(getBetterDateString(dateString: currentClass.classDate))"
+            graphTwoLabel.text = "Total Power: \(currentClass.totalPower)"
         }
+    }
+    
+    private func clearLabels() {
+        classTypeLabel.text = ""
+        graphOneLabel.text = ""
+        graphTwoLabel.text = ""
     }
     
     private func smoothGraph() {
@@ -117,7 +248,7 @@ class ViewController: UIViewController {
         otherLineChartDataSet.mode = .cubicBezier
         showingSmoothGraph = true
         lineChartView.highlightValue(nil)
-        lineChartView.animate(xAxisDuration: 0.5)
+        lineChartView.animate(xAxisDuration: 0.2)
         lineChartView.notifyDataSetChanged()
     }
     
@@ -125,16 +256,8 @@ class ViewController: UIViewController {
         lineChartDataSet.mode = .linear
         otherLineChartDataSet.mode = .linear
         showingSmoothGraph = false
-        lineChartView.animate(xAxisDuration: 0.5)
+        lineChartView.animate(xAxisDuration: 0.2)
         lineChartView.notifyDataSetChanged()
-    }
-    
-    @objc private func handleTap(recognizer: UITapGestureRecognizer) {
-        if recognizer.state == .ended {
-            smoothGraph()
-        } else {
-            linearizeGraph()
-        }
     }
 }
 
@@ -149,6 +272,8 @@ extension ViewController: ChartViewDelegate {
     func panGestureEnded(_ chartView: ChartViewBase) {
         smoothGraph()
     }
+    
+    // add tap gesture ended
 }
 
 extension ViewController: UIGestureRecognizerDelegate {
